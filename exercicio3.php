@@ -13,7 +13,8 @@
     // estrutura switch para determinar o nome do dia da semana
 
     switch ($dia_semana) {
-        case 1: echo $status = "Domingo\n". $status;
+        case 1: 
+            echo $status = "Domingo\n". $status;
             break;
         case 2:
             echo $status = "Segunda-feira\n". $status;

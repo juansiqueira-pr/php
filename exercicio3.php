@@ -16,7 +16,7 @@
         case 1: echo $status = "Domingo\n". $status;
             break;
         case 2:
-            echo $mensagem = "Segunda-feira\n". $status;
+            echo $status = "Segunda-feira\n". $status;
             break;
         case 3:
             echo $status = "Terça-feira\n". $status;
